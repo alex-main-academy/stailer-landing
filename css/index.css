@@ -536,7 +536,7 @@ h6 {
   font-weight: 700;
   line-height: 1.1;
   text-transform: uppercase;
-  margin-bottom: 39px;
+  margin-bottom: 25px;
 }
 
 .menu__navigation {
@@ -547,12 +547,12 @@ h6 {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  gap: 43px;
+  gap: 18px;
 }
 
 .menu__link {
   color: #FFFFFF;
-  font-size: 19px;
+  font-size: 17px;
   line-height: 1.44;
 }
 
