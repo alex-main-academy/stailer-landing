@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стайлер Hot Air 5 в 1</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon/favicon.ico">
+    <link rel="icon" sizes="any" type="image/svg+xml" href="img/favicon/favicon.svg">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/slick.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href class="header__logo">
+                <img src="img/logo.svg" alt="logo" width="117" height="24">
+            </a>
+            <nav>
+                <ul class="header__navigation">
+                    <li class="header__item">
+                        <a href="#home" class="header__link">Стайлер</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#features" class="header__link">Особливості</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#tech" class="header__link">Технології</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#reviews" class="header__link">Відгуки</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#video" class="header__link">Огляд</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#order" class="header__link">Як замовити?</a>
+                    </li>
+                </ul>
+                <button class="header__menu js-menu-open"></button>
+            </nav>
+            <button class="header__lang">
+                <span>UA</span>
+                <img src="img/section/header/arrow-down.svg" alt="" width="16" height="16">
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="sale">
+            <p class="sale__text">
+                Пропозиція дійсна до <span class="js-sale-end">10.08.23</span>!
+                <span class="sale__timer js-sale-timer"></span>
+            </p>
+        </section>
+
+        <section class="hero" id="home">
+            <div class="container">
+                <img src="img/section/hero/bg-2.webp" alt="" width="183" height="492" class="hero__back">
+                <h1 class="hero__title" data-aos="fade-right">Стайлер Hot Air 5 в 1</h1>
+                <p class="hero__desc" data-aos="fade-zoom-in" data-aos-delay="500">Стайлер для всіх типів волосся з
+                    функціями надання об’єму,
+                    випрямлення, укладання
+                </p>
+                <div class="hero__block">
+                    <a href="#order" class="order__link hero__order" data-aos="" data-aos-delay="">
+                        <span>Замовити</span>
+                        <img src=" img/order.svg" alt="" width="24" height="24" />
+                    </a>
+                    <p class="hero__sale" data-aos="fade-left" data-aos-delay="900">
+                        1100грн
+                        <span>2100грн</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="features" id="features">
+            <h2 class="title features__title" data-aos="fade-right">Особливості</h2>
+            <div class="slider features__slider">
+                <div class="slide features__slide" data-aos="fade-zoom-in" data-aos-delay="500">
+                    <img src="img/section/features/slide-1.webp" alt="" class="features__image" width="458"
+                        height="449">
+                    <div>
+                        <h3 class="features__subtitle">СУШКА волосся без перегріву</h3>
+                        <p class="features__desc">
+                            Ультрасучасна модель створює укладку без екстремального перегріву, що
+                            збереже ваше волосся від ламкості та посічення.
+                        </p>
+                    </div>
+                </div>
+                <div class="slide features__slide" data-aos="fade-zoom-in" data-aos-delay="1000">
+                    <img src="img/section/features/slide-2.webp" alt="" class="features__image" width="454"
+                        height="422">
+                    <div>
+                        <h3 class="features__subtitle">Випрямлення та завивка</h3>
+                        <p class="features__desc">
+                            В комплекті йдуть насадки для випрямлення волосся або завивки. Усе, що Вам потрібно, -
+                            міняти насадки й насолоджуватися своїми новими образами.
+                        </p>
+                    </div>
+                </div>
+                <div class="slide features__slide" data-aos="fade-zoom-in" data-aos-delay="1500">
+                    <img src="img/section/features/slide-3.webp" alt="" class="features__image" width="448"
+                        height="448">
+                    <div>
+                        <h3 class="features__subtitle">Для всіх типів волосся</h3>
+                        <p class="features__desc">
+                            Стайлер підходить для всіх типів волосся, укладання проводиться за допомогою тільки повітря,
+                            без використання занадто високих температур, затискачів та інших допоміжних засобів для
+                            завивки.
+                        </p>
+                    </div>
+                </div>
+                <div class="slide features__slide">
+                    <img src="img/section/features/slide-4.webp" alt="" class="features__image" width="450"
+                        height="484">
+                    <div>
+                        <h3 class="features__subtitle">Без перегрівання</h3>
+                        <p class="features__desc">
+                            Три температурні режими, за допомогою яких Ви зможете підібрати для себе найбільш підходящий
+                            варіант, який дозволить вам не перегрівати волосся
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <ul class="features__list">
+                <li class="features__item">
+                    <h3 class="features__subtitle">СУШКА волосся без перегріву</h3>
+                    <p class="features__desc">
+                        Ультрасучасна модель створює укладку без екстремального перегріву, що
+                        збереже ваше волосся від ламкості та посічення.
+                    </p>
+                </li>
+                <li class="features__item">
+                    <h3 class="features__subtitle">Випрямлення та завивка</h3>
+                    <p class="features__desc">
+                        В комплекті йдуть насадки для випрямлення волосся або завивки. Усе, що Вам потрібно, - міняти
+                        насадки й насолоджуватися своїми новими образами.
+                    </p>
+                </li>
+                <li class="features__item">
+                    <h3 class="features__subtitle">Для всіх типів волосся</h3>
+                    <p class="features__desc">
+                        Стайлер підходить для всіх типів волосся, укладання проводиться за допомогою тільки повітря
+                    </p>
+                    <p class="features__desc">
+                        без використання занадто високих температур, затискачів та інших допоміжних засобів для завивки.
+                    </p>
+                </li>
+                <li class="features__item">
+                    <h3 class="features__subtitle">без пергрівання</h3>
+                    <p class="features__desc">
+                        Три температурні режими, за допомогою яких Ви зможете підібрати для себе найбільш підходящий
+                        варіант, який дозволить вам не перегрівати волосся
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="nozzles">
+            <div class="container">
+                <h2 class="title nozzles__title" data-aos="fade-right">НАСАДКИ HOT AIR 5 в 1</h2>
+                <ul class="nozzles__list">
+                    <li class="nozzles__item" data-aos="fade-zoom-in" data-aos-delay="500">
+                        <img src="img/section/nozzles/img1.webp" alt="" class="nozzles__image" width="135" height="241">
+                        <p class="nozzles__desc">Насадка фен для сушіння волосся забезпечує сушіння з ефектом іонізації,
+                            який зробить ваше волосся м'яким, укріпленим і шовковистим без додаткових засобів!</p>
+                    </li>
+                    <li class="nozzles__item" data-aos="fade-zoom-in" data-aos-delay="1000">
+                        <img src="img/section/nozzles/img2.webp" alt="" class="nozzles__image" width="120" height="213">
+                        <p class="nozzles__desc">Насадка гребінець для випрямлення волосся (фен щітка для волосся), без
+                            шкоди для волосся завдяки термозахисту, вона замінить праску для волосся або плойку
+                            випрямляч</p>
+                    </li>
+                    <li class="nozzles__item" data-aos="fade-zoom-in" data-aos-delay="500">
+                        <img src="img/section/nozzles/img3.webp" alt="" class="nozzles__image" width="100" height="223">
+                        <p class="nozzles__desc">Універсальна для всіх типів волосся кругла насадка брашинг гребінець
+                            додасть вашій укладці приголомшливий прикореневий об'єм.</p>
+                    </li>
+                    <li class="nozzles__item" data-aos="fade-zoom-in" data-aos-delay="1000">
+                        <img src="img/section/nozzles/img4.webp" alt="" class="nozzles__image" width="220" height="241">
+                        <p class="nozzles__desc">Дві круглі насадки для завивки волосся, які замінять вам плойку для
+                            завивки волосся, щипці для волосся, громіздкі бігуді або гофре для волосся, плойку для
+                            афрокучерів.</p>
+                    </li>
+                </ul>
+                <div class="nozzles__slider_wrapper">
+                    <div class="nozzles__slider">
+                        <div class="nozzles__slide">
+                            <img src="img/section/nozzles/img1.webp" alt="" width="120">
+                            <p class="nozzles__desc">
+                                Насадка фен для сушіння волосся забезпечує сушіння з ефектом іонізації, який зробить
+                                ваше волосся м'яким, укріпленим і шовковистим без додаткових засобів!
+                            </p>
+                        </div>
+                        <div class="nozzles__slide">
+                            <img src="img/section/nozzles/img2.webp" alt="" width="101">
+                            <p class="nozzles__desc">
+                                Насадка гребінець для випрямлення волосся (фен щітка для волосся), без
+                                шкоди для волосся завдяки термозахисту, вона замінить праску для волосся або плойку
+                                випрямляч
+                            </p>
+                        </div>
+                        <div class="nozzles__slide">
+                            <img src="img/section/nozzles/img3.webp" alt="" width="86">
+                            <p class="nozzles__desc">
+                                Універсальна для всіх типів волосся кругла насадка брашинг гребінець додасть вашій
+                                укладці приголомшливий прикореневий об'єм.
+                            </p>
+                        </div>
+                        <div class="nozzles__slide">
+                            <img src="img/section/nozzles/img4.webp" alt="" width="160">
+                            <p class="nozzles__desc">
+                                Дві круглі насадки для завивки волосся, які замінять вам плойку для завивки волосся,
+                                щипці для волосся, громіздкі бігуді або гофре для волосся, плойку для афрокучерів.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="timer">
+            <div class="container">
+                <p class="timer__item_mob js-sale-timer"></p>
+                <p class="timer__price" data-aos="fade-right" data-aos-delay="200">
+                    1100грн
+                    <span>2100грн</span>
+                </p>
+                <p class="timer__item js-sale-timer" data-aos="fade-up" data-aos-delay="700"></p>
+                <a href="#order" class="order__link timer__order" data-aos="fade-left" data-aos-delay="200">
+                    <span>Замовити</span>
+                    <img src="img/order.svg" alt="" width="24" height="24">
+                </a>
+            </div>
+        </section>
+
+        <section class="tech" id="tech">
+            <div class="container">
+                <h2 class="title tech__title" data-aos="fade-zoom-in">ТЕХНОЛОГІї</h2>
+                <ul class="tech__images">
+                    <li class="tech__image">
+                        <img src="img/section/tech/img1.webp" alt="" data-aos="fade-zoom-in" data-aos-delay="300">
+                    </li>
+                    <li class="tech__image">
+                        <img src="img/section/tech/img2.webp" alt="" data-aos="fade-zoom-in" data-aos-delay="500">
+                    </li>
+                    <li class="tech__image">
+                        <img src="img/section/tech/img3.webp" alt="" data-aos="fade-zoom-in" data-aos-delay="700">
+                    </li>
+                </ul>
+                <ul class="tech__text">
+                    <li data-aos="fade-up" data-aos-delay="1000">
+                        <h3 class="tech__subtitle">АЕРОДИНАМІКА</h3>
+                        <p class="tech__desc">Робота приладу заснована на використанні аеродинамічного явища, що створює
+                            повітряні потоки, які зі свого боку притягують пасма і накручують їх на використовувану
+                            насадку.
+                        </p>
+                    </li>
+                    <li data-aos="fade-down" data-aos-delay="1000">
+                        <h3 class="tech__subtitle">ІОНІЗАЦІЯ</h3>
+                        <p class="tech__desc">
+                            Стайлер має захист від перегріву, 3 температурні режими, технологія іонізації волосся.
+                        </p>
+                    </li>
+                </ul>
+                <ul class="tech__list">
+                    <li class="tech__item">
+                        <img src="img/section/tech/img1.webp" alt="">
+                    </li>
+                    <li class="tech__item">
+                        <h3 class="tech__subtitle">ІОНІЗАЦІЯ</h3>
+                        <p class="tech__desc">
+                            Стайлер має захист від перегріву, 3 температурні режими, технологія іонізації волосся.
+                        </p>
+                    </li>
+                    <li class="tech__item">
+                        <img src="img/section/tech/img2.webp" alt="">
+                    </li>
+                    <li class="tech__item">
+                        <h3 class="tech__subtitle">АЕРОДИНАМІКА</h3>
+                        <p class="tech__desc">Робота приладу заснована на використанні аеродинамічного явища, що створює
+                            повітряні потоки, які зі свого боку притягують пасма і накручують їх на використовувану
+                            насадку.
+                        </p>
+                    </li>
+                    <li class="tech__item">
+                        <img src="img/section/tech/img3.webp" alt="">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="reviews" id="reviews">
+            <h2 class="title reviews__title" data-aos="fade-zoom-in">Відгуки</h2>
+            <swiper-container class="mySwiper swiper__desktop" pagination="false" effect="coverflow" grab-cursor="true"
+                centered-slides="true" initial-slide="1" slides-per-view="auto" coverflow-effect-rotate="15"
+                coverflow-effect-stretch="0" coverflow-effect-depth="200" coverflow-effect-modifier="-1"
+                coverflow-effect-slide-shadows="false">
+                <swiper-slide>
+                    <img src="img/section/reviews/slide-1.webp" data-aos="fade-right" data-aos-delay="800" />
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="img/section/reviews/slide-2.webp" data-aos="fade-zoom-in" data-aos-delay="300" />
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="img/section/reviews/slide-3.webp" data-aos="fade-left" data-aos-delay="800" />
+                </swiper-slide>
+            </swiper-container>
+            <div class="container">
+                <swiper-container class="mySwiper swiper__mobile" pagination="false" effect="" grab-cursor="true"
+                    centered-slides="true" initial-slide="0" slides-per-view="auto">
+                    <swiper-slide>
+                        <img src="img/section/reviews/slide-1.webp" />
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="img/section/reviews/slide-2.webp" />
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="img/section/reviews/slide-3.webp" />
+                    </swiper-slide>
+                </swiper-container>
+            </div>
+        </section>
+
+        <section class="timer">
+            <div class="container">
+                <p class="timer__item_mob js-sale-timer"></p>
+                <p class="timer__price" data-aos="fade-right" data-aos-delay="200">
+                    1100грн
+                    <span>2100грн</span>
+                </p>
+                <p class="timer__item js-sale-timer" data-aos="fade-up" data-aos-delay="700"></p>
+                <a href="#order" class="order__link timer__order" data-aos="fade-left" data-aos-delay="200">
+                    <span>Замовити</span>
+                    <img src="img/order.svg" alt="" width="24" height="24">
+                </a>
+            </div>
+        </section>
+
+        <section class="video" id="video">
+            <h2 class="title video__title" data-aos="fade-zoom-in">Огляд HOT AIR</h2>
+            <button class="video__play js-video-play" data-aos="fade-zoom-in" data-aos-delay="400">
+                <img src="img/section/video/play.svg" alt="" width="41" height="41">
+            </button>
+            <video src="video/video.mp4" controls class="video__block js-video"></video>
+        </section>
+
+        <section class="order" id="order">
+            <div class="container">
+                <h2 class="title order__title" data-aos="fade-zoom-in">ЗАМОВЛЯЙТЕ HOT AIR STYLER</h2>
+                <form class="order__form">
+                    <div class="order__info">
+                        <label class="order__label" data-aos="fade-zoom-in" data-aos-delay="300">
+                            <span>Ваше Ім’я</span>
+                            <input type="text" class="order__input" placeholder="Введіть ваше ім’я" required>
+                        </label>
+                        <label class="order__label" data-aos="fade-zoom-in" data-aos-delay="600">
+                            <span>Номер телефону<b>*</b></span>
+                            <input type="text" class="order__input" placeholder="Введіть ваш номер телефону" required
+                                minlength="8" max="20">
+                        </label>
+                    </div>
+                    <button type="submit" class="order__link menu__order" data-aos="fade-zoom-in" data-aos-delay="900">
+                        <span>Замовити</span>
+                        <img src="img/order.svg" alt="" width="24" height="24">
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <section class="way">
+            <div class="container">
+                <h2 class="title way__title" data-aos="fade-zoom-in">Шлях замовлення</h2>
+                <ul class="way__list">
+                    <li class="way__item" data-aos="fade-right" data-aos-delay="400">
+                        <img src="img/section/way/icon-1.svg" alt="" width="30" height="29">
+                        <h3 class="way__subtitle">Залишаєте заявку</h3>
+                        <p class="way__desc">Заповнюєте форму для оформлення замоволення</p>
+                    </li>
+                    <li class="way__item" data-aos="fade-left" data-aos-delay="1600">
+                        <img src="img/section/way/icon-2.svg" alt="" width="29" height="28">
+                        <h3 class="way__subtitle">Уточнення деталей</h3>
+                        <p class="way__desc">Наш менеджер уточнює деталі для оформлення Вашого замовлення</p>
+                    </li>
+                    <li class="way__item" data-aos="fade-right" data-aos-delay="1200">
+                        <img src="img/section/way/icon-3.svg" alt="" width="26" height="30">
+                        <h3 class="way__subtitle">Відправка замовлення</h3>
+                        <p class="way__desc">Ми відправляємо Ваше замовлення у любий регіон</p>
+                    </li>
+                    <li class="way__item" data-aos="fade-left" data-aos-delay="800">
+                        <img src="img/section/way/icon-4.svg" alt="" width="31" height="31">
+                        <h3 class="way__subtitle">Отримання замовлення на пошті</h3>
+                        <p class="way__desc">Забираєте Ваше замовлення на поштовому відділенні</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <a href class="footer__logo">
+                <img src="img/section/footer/logo.svg" alt="logo" width="117" height="24">
+            </a>
+            <div class="footer__top">
+                <div class="footer__block">
+                    <h3 class="footer__subtitle">КОнтакти</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <img src="img/section/footer/icon-1.svg" alt="" width="24" height="24">
+                            <a href="mailto:amami.online@gmail.com" class="footer__text">amami.online@gmail.com</a>
+                        </li>
+                        <li class="footer__item">
+                            <img src="img/section/footer/icon-2.svg" alt="" width="24" height="24">
+                            <a href="tel:+380969522309" class="footer__text">+380 (96) 952 2309</a>
+                        </li>
+                        <li class="footer__item">
+                            <img src="img/section/footer/icon-3.svg" alt="" width="24" height="24">
+                            <p class="footer__text">Графік работи: Пн - Нд: 08:00 - 23:00</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__block">
+                    <h3 class="footer__subtitle">АДреса</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <img src="img/section/footer/icon-4.svg" alt="" width="24" height="24">
+                            <p class="footer__text">Україна, 73000, Вінницька обл., місто Вінниця, вул. Калецька,
+                                будинок 38</p>
+                        </li>
+                        <li class="footer__item">
+                            <p class="footer__text">МАЛЕ ПІДПРИЄМСТВО "ПАРУС" - ЄДРПО 14117958</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <h3 class="footer__subtitle">Користувачу</h3>
+            <ul class="footer__links">
+                <li>
+                    <a href="" class="footer__link footer__text">Політика конфіденційності</a>
+                </li>
+                <li>
+                    <a href="" class="footer__link footer__text">Угода користувача</a>
+                </li>
+                <li>
+                    <a href="" class="footer__link footer__text">Умови гарантії та повернення</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <div class="menu js-menu">
+        <div class="container">
+            <p class="sale__text">
+                Пропозиція дійсна до <span class="js-sale-end">10.08.23</span>!
+                <span class="sale__timer js-sale-timer"></span>
+            </p>
+            <p class="menu__title">МЕНЮ</p>
+            <nav>
+                <ul class="menu__navigation">
+                    <li class="menu__item">
+                        <a href="#home" class="menu__link">Стайлер</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#features" class="menu__link">Особливості</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#tech" class="menu__link">Технології</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#reviews" class="menu__link">Відгуки</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#video" class="menu__link">Огляд</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#order" class="menu__link">Як замовити?</a>
+                    </li>
+                    <li class="menu__item">
+                        <button class="menu__lang">
+                            <span>UA</span>
+                            <img src="img/section/header/arrow-down.svg" alt="" width="16" height="16">
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+            <a href="" class="order__link menu__order">
+                <span>Замовити</span>
+                <img src="img/order.svg" alt="" width="24" height="24">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: false,
+            offset: 50
+        });
+    </script>
+
+    <script defer src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+</body>
+
+</html>
